@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+    /* Colors */
+
+    /* Primary */
+
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+
+    /* ### Neutral */
+
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+
+    /* Fonts */
+    --Poppins: 'Poppins', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--Poppins);
+}
+
+p {
+    font-family: var(--Open-Sans);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1440px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.try {
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 20px;
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+    border-radius: 20px;
+}
+
+.try:hover{
+    color: var(--Light-Pink);
+    border: 1px solid var(--Light-Pink);
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+section {
+    width: 85vw;
+    max-width: 1440px;
+}
+
+/* SECTION 1 */
+.container {
+    position: sticky;
+    top: 0;
+}
+
+.container-1 {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 p{
+    max-width: 500px;
+    margin: 30px 0 45px;
+    font-size: 14px;
+    color: var(--Very-Dark-Cyan);
+}
+
+.gsff {
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-weight: 600;
+    padding: 14px 40px;
+    background: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px rgba(128, 128, 128, 0.312);
+}
+
+.gsff:hover {
+    background: var(--Light-Pink);
+}
+
+.mockups{
+    width: 100%;
+    margin-top: 100px;
+}
+/* END SECTION 1 */
+/* SECTION 2 */
+
+
+
+/* END SECTION 2 */
+/* END MAIN */
+
+/* MEDIA QUERY */
+
+@media screen and (min-width:900px){
+    .container-1 h1 {
+        font-size: 32px;
+    }
+    .container-1 p {
+        font-size: 16px;
+    }
+    .mockups {
+        width: 675px;
+    }
+}
