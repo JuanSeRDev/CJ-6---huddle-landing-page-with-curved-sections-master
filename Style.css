@@ -162,8 +162,14 @@ section {
     margin-bottom: 100px;
 }
 
+.card1 h1 {
+    font-size: 85px;
+}
+
 .card img {
     width: 35px;
+    position: relative;
+    right: 90px;
 }
 
 .card2 p {
@@ -188,7 +194,7 @@ section {
 }
 
 .container-3 h1 {
-    margin: 30px 0;
+    margin: 80px 0 30px;
 }
 
 .container-3 p {
@@ -219,7 +225,7 @@ section {
 }
 
 .container-4 h1 {
-    margin: 30px 0;
+    margin: 80px 0 30px;
 }
 
 .container-4 p {
@@ -247,7 +253,7 @@ section {
 }
 
 .container-5 h1 {
-    margin: 30px 0;
+    margin: 80px 0 30px;
 }
 
 .container-5 p {
@@ -293,6 +299,107 @@ section {
 
 /* END CONTAINER 6 */
 /* END MAIN */
+
+/* FOOTER */
+
+footer {
+    background: var(--Very-Dark-Cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    color: var(--Very-Pale-Blue);
+    font-family: var(--Open-Sans);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.footer-general{
+    width: 85%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer p {
+    color: var(--Very-Pale-Blue);
+    font-size: 15px;
+}
+
+.fc-2 {
+    margin: 75px 0;
+}
+
+.fc-2 p {
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+}
+form {
+    width: 100%;
+}
+
+.email {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 35px 0 25px;
+}
+
+.botton{
+    text-decoration: none;
+    font-family: var(--Open-Sans);
+    font-size: 15px;
+    color: var(--Very-Pale-Blue);
+    padding: 10px 40px;
+    background: var(--Pink);
+    border-radius: 10px;
+    width: 160px;
+    
+}
+
+.f-logo{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.fc-1 {
+    margin: 15px 0 50px;
+}
+
+.f-contact{
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-contact {
+    display: flex;
+    align-items: center;
+}
+
+.icon-p, .icon-m{
+    margin-right: 17px;
+}
+.fa-icons {
+    width: 850%;
+}
+.fa-brands {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+/* END FOOTER */
 
 /* MEDIA QUERY */
 
