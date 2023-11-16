@@ -364,7 +364,10 @@ form {
     background: var(--Pink);
     border-radius: 10px;
     width: 160px;
+}
 
+.botton:hover{
+    background: var(--Light-Pink);
 }
 
 .f-logo{
