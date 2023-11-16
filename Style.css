@@ -391,12 +391,20 @@ form {
 .icon-p, .icon-m{
     margin-right: 17px;
 }
-.fa-icons {
-    width: 850%;
+
+.fix{
+   width: 85%; 
+   margin-bottom: 50px;
 }
+
 .fa-brands {
     font-size: 30px;
     margin-right: 20px;
+    color: var(--Very-Pale-Blue);
+}
+
+.fa-brands:hover{
+    color: var(--Light-Pink);
 }
 
 /* END FOOTER */
